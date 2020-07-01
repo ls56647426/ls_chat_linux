@@ -1,0 +1,197 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COMMAND_ADD_USER	packet.h	254;"	d
+COMMAND_ADMINIST_ADD_GROUP	packet.h	252;"	d
+COMMAND_APPLY_ADD_GROUP	packet.h	251;"	d
+COMMAND_CREATE_GROUP	packet.h	250;"	d
+COMMAND_EXIT_CHATGROUP	packet.h	259;"	d
+COMMAND_FILE_DOWNLOAD	packet.h	249;"	d
+COMMAND_FILE_UPLOAD_ING	packet.h	258;"	d
+COMMAND_FILE_UPLOAD	packet.h	248;"	d
+COMMAND_GET_GROUP_FILE	packet.h	253;"	d
+COMMAND_GET_GROUP_ONLINEUSER	packet.h	255;"	d
+COMMAND_GET_ONLINEUSER	packet.h	245;"	d
+COMMAND_GROUP_BANUSERPOST	packet.h	246;"	d
+COMMAND_GROUP_DELETEUSER	packet.h	247;"	d
+COMMAND_INTO_CHATUSER	packet.h	257;"	d
+COMMAND_INTO_GROUP	packet.h	256;"	d
+Compare_GroupNode	packet.c	/^int Compare_GroupNode(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_GroupUserMapNode_Uid_Gid	packet.c	/^int Compare_GroupUserMapNode_Uid_Gid(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_GroupUserMapNode	packet.c	/^int Compare_GroupUserMapNode(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_ThreadMutexNode	packet.c	/^int Compare_ThreadMutexNode(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_UserNode_Id	packet.c	/^int Compare_UserNode_Id(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_UserNode	packet.c	/^int Compare_UserNode(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_UserUserMapNode_Uid	packet.c	/^int Compare_UserUserMapNode_Uid(const LinkNode *node1, const LinkNode *node2)$/;"	f
+Compare_UserUserMapNode	packet.c	/^int Compare_UserUserMapNode(const LinkNode *node1, const LinkNode *node2)$/;"	f
+ERRNO_ADDUSER_NOTFOUND	packet.h	269;"	d
+ERRNO_ALREADYEXIST	packet.h	263;"	d
+ERRNO_BEOFFLINE	packet.h	266;"	d
+ERRNO_GROUP_ALREADYEXIST	packet.h	267;"	d
+ERRNO_GROUP_INEXISTENCE	packet.h	268;"	d
+ERRNO_INEXISTENCE	packet.h	264;"	d
+ERRNO_NOTFOUND	packet.h	265;"	d
+ERRNO_SUCCESS	packet.h	262;"	d
+FILE_DOWNLOAD_END	packet.h	195;"	d
+FILE_DOWNLOAD_HEAD	packet.h	193;"	d
+FILE_DOWNLOAD_ING	packet.h	194;"	d
+FILE_NAME_LEN	packet.h	200;"	d
+FILE_ONCE_SIZE	packet.h	201;"	d
+FILE_SELECT_END	packet.h	198;"	d
+FILE_SELECT_HEAD	packet.h	196;"	d
+FILE_SELECT_ING	packet.h	197;"	d
+FILE_UPLOAD_END	packet.h	192;"	d
+FILE_UPLOAD_HEAD	packet.h	190;"	d
+FILE_UPLOAD_ING	packet.h	191;"	d
+FileInfo	packet.h	/^} FileInfo;$/;"	t	typeref:struct:__anon7
+GROUP_NAME_LEN	packet.h	100;"	d
+GROUP_USER_STAT_BANPOST	packet.h	154;"	d
+GROUP_USER_STAT_NORMAL	packet.h	153;"	d
+Get_UserNode_Name	packet.c	/^void Get_UserNode_Name(LinkNode *node, char **text, Color *color)$/;"	f
+GroupNode	packet.h	/^} GroupNode;$/;"	t	typeref:struct:__anon5
+GroupUserMapNode	packet.h	/^} GroupUserMapNode;$/;"	t	typeref:struct:__anon6
+Group	packet.h	/^} Group;$/;"	t	typeref:struct:__anon4
+LINEMAX	group_file/group_1/cat.c	8;"	d	file:
+MENU_ADD_GROUP	client.c	57;"	d	file:
+MENU_ADD_USER	client.c	56;"	d	file:
+MENU_CHATGROUP_EDIT	client.c	60;"	d	file:
+MENU_CHATGROUP	client.c	53;"	d	file:
+MENU_CHATUSER_EDIT	client.c	61;"	d	file:
+MENU_CHATUSER	client.c	54;"	d	file:
+MENU_CREATE_GROUP	client.c	55;"	d	file:
+MENU_HOME	client.c	52;"	d	file:
+MENU_INIT	client.c	48;"	d	file:
+MENU_LOGIN	client.c	49;"	d	file:
+MENU_REGISTER	client.c	50;"	d	file:
+MENU_SELECT_CHATGROUP	client.c	59;"	d	file:
+MENU_SELECT_CHATUSER	client.c	58;"	d	file:
+MSG_INFO_LEN	packet.h	236;"	d
+MSG_LOGIN	packet.h	239;"	d
+MSG_LOGOUT	packet.h	241;"	d
+MSG_REGISTER	packet.h	238;"	d
+MSG_SENDMSG	packet.h	240;"	d
+MSG_TRANFILE	packet.h	242;"	d
+MsgInfo	packet.h	/^} MsgInfo;$/;"	t	typeref:union:__anon9
+Msg	packet.h	/^} Msg;$/;"	t	typeref:struct:__anon10
+PERM_ADMI	packet.h	156;"	d
+PERM_USER	packet.h	155;"	d
+Print_GroupNode	packet.c	/^void Print_GroupNode(const LinkNode *node)$/;"	f
+Print_GroupUserMapNode	packet.c	/^void Print_GroupUserMapNode(const LinkNode *node)$/;"	f
+Print_UserNode	packet.c	/^void Print_UserNode(const LinkNode *node)$/;"	f
+SERV_IP	server.c	58;"	d	file:
+SERV_IP	client.c	/^static const char SERV_IP[INET_ADDRSTRLEN] = "192.168.31.104";$/;"	v	file:
+SERV_PORT	server.c	57;"	d	file:
+SERV_PORT	client.c	/^static const int SERV_PORT = 5664;$/;"	v	file:
+ThreadMutexNode	packet.h	/^} ThreadMutexNode;$/;"	t	typeref:struct:__anon12
+TranFileThread	packet.h	/^} TranFileThread;$/;"	t	typeref:struct:__anon11
+TranFile	packet.h	/^} TranFile;$/;"	t	typeref:struct:__anon8
+USER_NAME_LEN	packet.h	28;"	d
+USER_STAT_OFFLINE	packet.h	54;"	d
+USER_STAT_ONLINE	packet.h	53;"	d
+UserNode	packet.h	/^} UserNode;$/;"	t	typeref:struct:__anon2
+UserUserMapNode	packet.h	/^} UserUserMapNode;$/;"	t	typeref:struct:__anon3
+User	packet.h	/^} User;$/;"	t	typeref:struct:__anon1
+_MENU_H_	menu.h	20;"	d
+_PACKET_H_	packet.h	8;"	d
+attr	client.c	/^static pthread_attr_t attr;$/;"	v	file:
+attr	server.c	/^static pthread_attr_t attr;$/;"	v	file:
+bev	packet.h	/^	struct bufferevent *bev;$/;"	m	struct:__anon11	typeref:struct:__anon11::bufferevent
+bev	packet.h	/^	struct bufferevent *bev;$/;"	m	struct:__anon12	typeref:struct:__anon12::bufferevent
+bev	packet.h	/^	struct bufferevent *bev;$/;"	m	struct:__anon2	typeref:struct:__anon2::bufferevent
+buf	packet.h	/^	char buf[FILE_ONCE_SIZE];$/;"	m	struct:__anon8
+cmd_msg_cb	client.c	/^void cmd_msg_cb(int fd, short events, void *arg)$/;"	f
+curMenu	client.c	/^static int curMenu;$/;"	v	file:
+dest	packet.h	/^	User dest;$/;"	m	struct:__anon10
+event_cb	client.c	/^void event_cb(struct bufferevent *bev,short what, void *ctx)$/;"	f
+event_cb	server.c	/^void event_cb(struct bufferevent *bev,short events, void *arg)$/;"	f
+file_data	packet.h	/^	TranFile file_data;$/;"	m	union:__anon9
+file_download	client.c	/^void *file_download(void *arg)$/;"	f
+file_download	server.c	/^void *file_download(void *arg)$/;"	f
+file_info	packet.h	/^	FileInfo file_info;$/;"	m	union:__anon9
+file_upload	client.c	/^void *file_upload(void *arg)$/;"	f
+file_upload	server.c	/^void *file_upload(void *arg)$/;"	f
+gid	packet.h	/^	int gid;$/;"	m	struct:__anon6
+gid	server.c	/^static int uid, gid, gumid, uumid;$/;"	v	file:
+group_list	server.c	/^static LinkList *group_list;$/;"	v	file:
+group_user_list	client.c	/^static LinkList *group_user_list;$/;"	v	file:
+group_user_map_list	server.c	/^static LinkList *group_user_map_list;$/;"	v	file:
+group_user_table	client.c	/^static LinkTable *group_user_table;$/;"	v	file:
+group	packet.h	/^	Group group;$/;"	m	struct:__anon10
+group	packet.h	/^	Group group;$/;"	m	struct:__anon5
+gumid	server.c	/^static int uid, gid, gumid, uumid;$/;"	v	file:
+id	packet.h	/^	int id;$/;"	m	struct:__anon1
+id	packet.h	/^	int id;$/;"	m	struct:__anon3
+id	packet.h	/^	int id;$/;"	m	struct:__anon4
+id	packet.h	/^	int id;$/;"	m	struct:__anon6
+info	packet.h	/^	MsgInfo info;$/;"	m	struct:__anon10
+info	packet.h	/^	char info[MSG_INFO_LEN];$/;"	m	union:__anon9
+len	packet.h	/^	int len;$/;"	m	struct:__anon8
+listener_cb	server.c	/^void listener_cb(struct evconnlistener* listener, evutil_socket_t fd,$/;"	f
+login_ip	packet.h	/^	char login_ip[INET_ADDRSTRLEN];$/;"	m	struct:__anon2
+main	client.c	/^int main(int argc, char *argv[])$/;"	f
+main	group_file/group_1/cat.c	/^int main(int argc, char *argv[])$/;"	f
+main	group_file/group_1/mv.c	/^int main(int argc, char *argv[])$/;"	f
+main	server.c	/^int main(int argc, char *argv[])$/;"	f
+me	client.c	/^static User me;$/;"	v	file:
+msg	packet.h	/^	Msg msg;$/;"	m	struct:__anon11
+myCat	group_file/group_1/cat.c	/^void myCat(const char *filename)$/;"	f
+myMv	group_file/group_1/mv.c	/^void myMv(const char *filename1, const char*filename2)$/;"	f
+name	packet.h	/^	char name[FILE_NAME_LEN];$/;"	m	struct:__anon7
+name	packet.h	/^	char name[GROUP_NAME_LEN];$/;"	m	struct:__anon4
+name	packet.h	/^	char name[USER_NAME_LEN];$/;"	m	struct:__anon1
+node	packet.h	/^	LinkNode node;$/;"	m	struct:__anon12
+node	packet.h	/^	LinkNode node;$/;"	m	struct:__anon2
+node	packet.h	/^	LinkNode node;$/;"	m	struct:__anon3
+node	packet.h	/^	LinkNode node;$/;"	m	struct:__anon5
+node	packet.h	/^	LinkNode node;$/;"	m	struct:__anon6
+offset	packet.h	/^	int offset;$/;"	m	struct:__anon8
+other	client.c	/^static Group other;$/;"	v	file:
+pDir	server.c	/^static Dir *pDir;$/;"	v	file:
+permission	packet.h	/^	int permission;$/;"	m	struct:__anon6
+read_cb	client.c	/^void read_cb(struct bufferevent *bev, void *ctx)$/;"	f
+read_cb	server.c	/^void read_cb(struct bufferevent *bev, void *arg)$/;"	f
+read_data	server.c	/^void read_data()$/;"	f
+showAddGroupMenu	menu.c	/^void showAddGroupMenu()$/;"	f
+showAddUserMenu	menu.c	/^void showAddUserMenu()$/;"	f
+showChatGroupMenu	menu.c	/^void showChatGroupMenu()$/;"	f
+showChatUserMenu	menu.c	/^void showChatUserMenu()$/;"	f
+showCreateGroupMenu	menu.c	/^void showCreateGroupMenu()$/;"	f
+showFileDownloadMenu	menu.c	/^void showFileDownloadMenu()$/;"	f
+showFileUploadMenu	menu.c	/^void showFileUploadMenu()$/;"	f
+showHomeMenu	menu.c	/^void showHomeMenu()$/;"	f
+showInitMenu	menu.c	/^void showInitMenu()$/;"	f
+showLoginMenu	menu.c	/^void showLoginMenu()$/;"	f
+showRegisterMenu	menu.c	/^void showRegisterMenu()$/;"	f
+showSelectChatGroupMenu	menu.c	/^void showSelectChatGroupMenu()$/;"	f
+showSelectChatUserMenu	menu.c	/^void showSelectChatUserMenu()$/;"	f
+showSelectFileUpdate	menu.c	/^void showSelectFileUpdate()$/;"	f
+signal_cb	server.c	/^void signal_cb(evutil_socket_t sig, short events, void *arg)$/;"	f
+size	packet.h	/^	int size;$/;"	m	struct:__anon7
+src	packet.h	/^	User src;$/;"	m	struct:__anon10
+stacksize	client.c	63;"	d	file:
+stacksize	server.c	56;"	d	file:
+status	packet.h	/^	int status;$/;"	m	struct:__anon2
+status	packet.h	/^	int status;$/;"	m	struct:__anon6
+tid	packet.h	/^	pthread_t tid;$/;"	m	struct:__anon11
+tm_list	server.c	/^static LinkList *tm_list;$/;"	v	file:
+tm	client.c	/^static int tm = 0;$/;"	v	file:
+type	packet.h	/^	int type;$/;"	m	struct:__anon10
+type	packet.h	/^	int type;$/;"	m	struct:__anon7
+type	packet.h	/^	int type;$/;"	m	struct:__anon8
+uid1	packet.h	/^	int uid1;$/;"	m	struct:__anon3
+uid2	packet.h	/^	int uid2;$/;"	m	struct:__anon3
+uid	packet.h	/^	int uid;$/;"	m	struct:__anon6
+uid	server.c	/^static int uid, gid, gumid, uumid;$/;"	v	file:
+user_list	client.c	/^static LinkList *user_list;$/;"	v	file:
+user_list	server.c	/^static LinkList *user_list;$/;"	v	file:
+user_table	client.c	/^static LinkTable *user_table;$/;"	v	file:
+user_user_map_list	server.c	/^static LinkList *user_user_map_list;$/;"	v	file:
+user	packet.h	/^	User user;$/;"	m	struct:__anon2
+uumid	server.c	/^static int uid, gid, gumid, uumid;$/;"	v	file:
+write_cb	client.c	/^void write_cb(struct bufferevent *bev, void *ctx)$/;"	f
+write_cb	server.c	/^void write_cb(struct bufferevent *bev, void *arg)$/;"	f
+write_data	server.c	/^void write_data()$/;"	f
+you	client.c	/^static User you;$/;"	v	file:
